@@ -11,7 +11,7 @@ use Lcobucci\JWT\Token\InvalidTokenStructure;
 use Lcobucci\JWT\Token\Parser;
 use Lcobucci\JWT\Token\UnsupportedHeaderFound;
 
-final class Webhook extends BaseApi
+final class Webhook
 {
     public static function handleWebhook(string $header, array $data)
     {
