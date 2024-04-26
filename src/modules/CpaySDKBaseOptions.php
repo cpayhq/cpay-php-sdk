@@ -17,11 +17,11 @@ final class CpaySDKBaseOptions
     protected string $apiUrl = "https://api.cpay.world";
 
     public function __construct(
-        ?string $publicKey,
-        ?string $privateKey,
-        ?string $walletId,
-        ?string $passphrase,
-        ?string $apiUrl
+        ?string $publicKey = null,
+        ?string $privateKey = null,
+        ?string $walletId = null,
+        ?string $passphrase = null,
+        ?string $apiUrl = null
     ) {
         if ($publicKey) {
             $this->publicKey = $publicKey;
