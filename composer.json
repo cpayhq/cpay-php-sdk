@@ -2,7 +2,7 @@
     "name": "cpayhq/cpay-php-sdk",
     "description": "Cpay api SDK",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "minimum-stability": "stable",
     "require": {
