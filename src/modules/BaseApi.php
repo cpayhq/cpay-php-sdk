@@ -18,6 +18,7 @@ class BaseApi
     {
         $this->client = new Client();
         $this->config = $config;
+        $this->token = null;
     }
 
     /**
