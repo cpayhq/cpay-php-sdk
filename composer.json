@@ -1,0 +1,17 @@
+{
+    "name": "cpayhq/cpay-php-sdk",
+    "description": "Cpay api SDK",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+      "php": ">=7.2.5",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+      "psr-4": {
+        "Cpay\\Api\\": "src/"
+      }
+    }
+  }
